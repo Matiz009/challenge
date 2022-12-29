@@ -1,19 +1,23 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Matiz009/challenge.git"
-  },
-  "author": "matiz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Matiz009/challenge/issues"
-  },
-  "homepage": "https://github.com/Matiz009/challenge#readme"
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Matiz009/challenge.git"
+    },
+    "author": "matiz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Matiz009/challenge/issues"
+    },
+    "homepage": "https://github.com/Matiz009/challenge#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "nodemon": "^2.0.20"
+    }
 }
